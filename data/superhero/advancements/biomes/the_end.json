@@ -1,0 +1,20 @@
+{
+	"display": {
+		"title": "the_end","description": "","icon": {"item": "minecraft:stone"},
+		"hidden":true,
+		"show_toast": false,
+		"announce_to_chat": false,
+		"parent":"superhero:biome_base"
+    },
+	"criteria": {
+        "the_end": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "the_end"
+			}
+		}
+    },
+	"rewards":{
+		"function":"superhero:biomes/the_end"
+	}
+}
