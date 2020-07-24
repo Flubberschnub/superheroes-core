@@ -53,6 +53,11 @@ scoreboard players set @e damagedivisor 10
 scoreboard objectives add halfhearts dummy
 scoreboard objectives add healthdamage dummy
 
+##other
+scoreboard objectives add freezemotionx dummy
+scoreboard objectives add freezemotiony dummy
+scoreboard objectives add freezemotionz dummy
+
 ## teams
 team add rightclick
 team modify rightclick collisionRule never
